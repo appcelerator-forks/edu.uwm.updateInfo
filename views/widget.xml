@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="updateScreen">
+		<View id="content">
+			<View id="topContainer">
+				<Label id="message"/>
+				<Label id="currentVersion" class="version"/>
+				<Label id="newVersion" class="version"/>
+				<Button id="updateButton"/>
+				<View class="padding"/>
+			</View>
+			<View id="shadowContainer">
+				<View id="shadow"/>
+				<ScrollView id="bottomContainer">
+					<Label id="description"/>
+				</ScrollView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

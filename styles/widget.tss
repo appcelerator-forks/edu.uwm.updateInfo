@@ -1,0 +1,78 @@
+".padding": {
+	height: "20dp",
+	width: "20dp"
+}
+".version": {
+	text: "",
+	font: {
+		fontSize: "14dp"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#000",
+	top: "10dp",
+	left: "20dp",
+	right: "20dp"
+}
+"#updateScreen": {
+	backgroundColor: "#FFF"
+}
+"#content": {
+	layout: "vertical"
+}
+"#topContainer": {
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	top: "0"
+}
+"#topContainer[platform=ios]": {
+	top: "20dp"
+}
+"#message": {
+	text: "There is a new version of the app.\n Please update before continuing.",
+	font: {
+		fontSize: "18dp"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#000",
+	top: "20dp",
+	left: "20dp",
+	right: "20dp"
+}
+"#updateButton": {
+	title: "Update",
+	height: "35dp",
+	width: "25%",
+	top: "20dp",
+	color: "#FFF",
+	backgroundColor: "#CCC",
+	font: {
+		fontSize: "12dp"
+	}
+}
+"#shadow": {
+	top: 0,
+	height: "40dp",
+	backgroundGradient: {
+		type: "linear",
+		colors: [
+			{ color: "#000", position: 0.5 },
+			{ color: "#FFF", position: 1 }
+		]
+	},
+	opacity: 0
+}
+"#bottomContainer": {
+	contentWidth: "90%",
+	top: 0,
+	bottom: 0
+}
+"#description": {
+	text: "",
+	font: {
+		fontSize: "18dp"
+	},
+	color: "#000",
+	top: "20dp",
+	left: "20dp",
+	right: "20dp"
+}
