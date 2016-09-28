@@ -148,6 +148,10 @@ updateInfo.setData({
 	});
 ```
 
+###Images
+![Default](https://github.com/uwm-appbrewery/edu.uwm.updateInfo/blob/master/docs/default.png)
+![Styled](https://github.com/uwm-appbrewery/edu.uwm.updateInfo/blob/master/docs/styled.png)
+
 Changelog
 ---------
 
