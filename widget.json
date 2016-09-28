@@ -1,0 +1,13 @@
+{
+	"id": "edu.uwm.updateInfo",
+	"name": "edu.uwm.updateInfo",
+	"description": "Customizable window for displaying app update information and providing link to visit store.",
+	"author": "UWM App Brewery",
+	"version": "1.0",
+	"copyright": "Copyright 2016 Board of Regents for the University of Wisconsin System",
+	"license": "Apache 2.0",
+	"min-alloy-version": "1.6",
+	"min-titanium-version": "5.0",
+	"tags": "update,upgrade,version",
+	"platforms": "android,ios"
+}
