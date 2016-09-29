@@ -9,10 +9,10 @@
 				<View class="padding"/>
 			</View>
 			<View id="shadowContainer">
-				<View id="shadow"/>
 				<ScrollView id="bottomContainer">
 					<Label id="description"/>
 				</ScrollView>
+				<View id="shadow"/>
 			</View>
 		</View>
 	</Window>
